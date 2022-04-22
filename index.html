@@ -441,19 +441,26 @@
                 <p>Оставьте свои данные, мы вам перезвоним</p>
                 
                 <label class="contact-form-field">
-                    Имя
-                    <input name="user_name" class="contact-form-input" type="text">
+                    <span class="text-input">Имя</span>
+                    <div>
+                        <input name="user_name" class="contact-form-input" type="text">
+                        <svg class="contact-form-icon">
+                            <use href="./img/icons.svg/sprite.svg/icon-user"></use>
+                        </svg>
+
+                    </div> 
+                  
                 </label>
                 <label class="contact-form-field">
-                    Телефон
+                    <span class="text-input">Телефон</span>
                     <input name="user_phone" class="contact-form-input" type="tel">
                 </label>
                 <label class="contact-form-field">
-                    Почта
+                    <span class="text-input">Почта</span>
                     <input name="user_mail" class="contact-form-input" type="email">
                 </label>
                 <label class="contact-form-field">
-                    Комментарий
+                    <span class="text-input">Комментарий</span>
                     <textarea name="user_massage" class="contact-form-massage" placeholder="Введите текст"></textarea>
                 </label>
                 <div class="contact-form-checkbox-wrapper">

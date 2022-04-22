@@ -760,3 +760,20 @@ color: #FFFFFF;
   margin-top: 4px;
   margin-bottom: 10px;
 }
+.text-input {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+
+letter-spacing: 0.01em;
+
+color: #757575;
+
+}
+.contact-form-icon {
+  width: 18px;
+  height: 18px;
+
+}
