@@ -438,34 +438,46 @@
             </button>
 
             <form class="contact-form">
-                <p>Оставьте свои данные, мы вам перезвоним</p>
+                <p class="contact-form-title">Оставьте свои данные, мы вам перезвоним</p>
                 
                 <label class="contact-form-field">
                     <span class="text-input">Имя</span>
-                    <div>
+                    <span class="contact-form-input-wrapper">
                         <input name="user_name" class="contact-form-input" type="text">
                         <svg class="contact-form-icon">
-                            <use href="./img/icons.svg/sprite.svg/icon-user"></use>
+                            <use href="./img/icons.svg/sprite.svg#icon-user"></use>
                         </svg>
 
-                    </div> 
+                    </span> 
                   
                 </label>
                 <label class="contact-form-field">
                     <span class="text-input">Телефон</span>
-                    <input name="user_phone" class="contact-form-input" type="tel">
+                    <span class="contact-form-input-wrapper">
+                        <input name="user_phone" class="contact-form-input" type="tel">
+                        <svg class="contact-form-icon">
+                            <use href="./img/icons.svg/sprite.svg#icon-tel"></use>
+                        </svg>
+                    </span>
+                    
                 </label>
                 <label class="contact-form-field">
                     <span class="text-input">Почта</span>
-                    <input name="user_mail" class="contact-form-input" type="email">
+                    <span class="contact-form-input-wrapper">
+                        <input name="user_mail" class="contact-form-input" type="email">
+                        <svg class="contact-form-icon">
+                            <use href="./img/icons.svg/sprite.svg#icon-emal"></use>
+                        </svg>
+                    </span>
+                    
                 </label>
                 <label class="contact-form-field">
                     <span class="text-input">Комментарий</span>
                     <textarea name="user_massage" class="contact-form-massage" placeholder="Введите текст"></textarea>
                 </label>
                 <div class="contact-form-checkbox-wrapper">
-                    <input name="accept-policy" type="checkbox" class="contact-form-checkbox" required>
-                    <label for="" class="contact-form-checkbox-label">
+                    <input name="accept-policy" type="checkbox" class="contact-form-checkbox" id="policy-checkbox" required>
+                    <label for="policy-checkbox" class="contact-form-checkbox-label">
                         Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
                 </div>
                 <button type="submit" class="contact-form-submit-btn">Отправить</button>
