@@ -536,6 +536,9 @@ height: 70px;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
+.join {
+  margin-right: 94px;
+}
 .join-title {
   font-family: Roboto;
 font-style: normal;
@@ -583,10 +586,21 @@ margin-bottom: 30px;
     background-color: #2196F3;;
   }
 
-  .footer-form-btn {
+.footer-form-field {
+  display: flex;
+  align-items: center;
+}
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
 
-  }
-
+  background-color: #2F303A;
+  border: 1px solid #FFFFFF4D;
+  padding-left: 16px;
+  
+  
+}
 
   .footer-form-btn {
   display: block;
