@@ -932,6 +932,7 @@ margin-bottom:;
   border: 1px solid #212121;
   cursor: pointer;
   margin-right: 8px;
+  align-items: center;
 
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
