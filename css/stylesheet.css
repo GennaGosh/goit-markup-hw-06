@@ -537,7 +537,7 @@ height: 70px;
   margin-top: 9px;
 }
 .join {
-  margin-right: 94px;
+  margin-right: 75px;
 }
 .join-title {
   font-family: Roboto;
@@ -589,6 +589,7 @@ margin-bottom: 30px;
   display: flex;
   align-items: center;
   position: relative;
+
 }
 .footer-form-input {
   width: 358px;
